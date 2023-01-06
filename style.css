@@ -1,5 +1,52 @@
-body{
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
     background-color: bisque;
-    padding: 15%;
+}
+.container{
+    margin: 0;
+    padding: 5%;
     font-size: 22px;
+    background-color: white;
+}
+p {
+    padding: 2% 0;
+}
+.maintitle {
+    font-size: 48px;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    border-bottom: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+.navbars ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navbar {
+    border-left: 1px solid black;
+    display: inline-block;
+    padding: 0 16px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a::after {
+    display: inline-block;
 }
